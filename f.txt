@@ -1,0 +1,942 @@
+
+ENVI Decision Tree Text File (version=1.0)
+
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 1,1
+    expression = "B3 LE 131.152"
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 2, 1
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B7 LE 0.596 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 3, 1
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B9 LE 86.956 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 1
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B4 LE 838 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 1
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B5 LE 20.630 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 1
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 41
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 2
+    parent name = "B3"
+    parent decision = No 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 2
+    parent name = "B3"
+    parent decision = No 
+    expression = "B2 LE 47.562 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 3
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 41
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 4
+    parent name = "B3"
+    parent decision = No 
+    expression = "B10 LE 117 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 7
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B5 LE 6.730 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 13
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B4 LE 1,437 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 25
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 25
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 26
+    parent name = "B3"
+    parent decision = No 
+    class value = 32
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 14
+    parent name = "B3"
+    parent decision = No 
+    class value = 32
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 7, 8
+    parent name = "B3"
+    parent decision = No 
+    class value = 25
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 2
+    parent name = "B3"
+    parent decision = No 
+    expression = "B4 LE 1,395 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 3
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B2 LE 56.372 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 5
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 21
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 6
+    parent name = "B3"
+    parent decision = No 
+    expression = "B4 LE 1,003 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 11
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B3 LE 125.190 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 21
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 25
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 22
+    parent name = "B3"
+    parent decision = No 
+    expression = "B3 LE 128.171 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 9, 43
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B11 LE 51 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 85
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 86
+    parent name = "B3"
+    parent decision = No 
+    class value = 25
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 44
+    parent name = "B3"
+    parent decision = No 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 12
+    parent name = "B3"
+    parent decision = No 
+    expression = "B5 LE 18.780 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 23
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B9 LE 146.484 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 45
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 25
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 46
+    parent name = "B3"
+    parent decision = No 
+    class value = 33
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 24
+    parent name = "B3"
+    parent decision = No 
+    expression = "B7 LE 0.491 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 47
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 32
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 48
+    parent name = "B3"
+    parent decision = No 
+    class value = 33
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 5, 4
+    parent name = "B3"
+    parent decision = No 
+    class value = 33
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 3, 2
+    parent name = "B3"
+    parent decision = No 
+    expression = "B2 LE 59.895 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 3
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B4 LE 1,852 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 5, 5
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 21
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 5, 6
+    parent name = "B3"
+    parent decision = No 
+    class value = 33
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 4
+    parent name = "B3"
+    parent decision = No 
+    expression = "B7 LE 0.605 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 5, 7
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 5, 8
+    parent name = "B3"
+    parent decision = No 
+    class value = 22
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 2, 2
+    parent name = "B3"
+    parent decision = No 
+    expression = "B9 LE 101.394 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 3, 3
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B1 LE 135.231 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 4, 5
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 41
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 6
+    parent name = "B3"
+    parent decision = No 
+    expression = "B11 LE 24 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 5, 11
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 112
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 12
+    parent name = "B3"
+    parent decision = No 
+    expression = "B11 LE 248 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 23
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B4 LE 1,178 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 7, 45
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 51
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 46
+    parent name = "B3"
+    parent decision = No 
+    expression = "B6 LE 278.130 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 91
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 51
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 92
+    parent name = "B3"
+    parent decision = No 
+    class value = 122
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 24
+    parent name = "B3"
+    parent decision = No 
+    class value = 53
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 3, 4
+    parent name = "B3"
+    parent decision = No 
+    expression = "B3 LE 155.002 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 7
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B9 LE 235.245 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 13
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B2 LE 68.705 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 25
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 112
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 26
+    parent name = "B3"
+    parent decision = No 
+    expression = "B4 LE 572 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 7, 51
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 112
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 52
+    parent name = "B3"
+    parent decision = No 
+    expression = "B11 LE 165 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 103
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B5 LE 28.632 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 9, 205
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B2 LE 70.467 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 10, 409
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B3 LE 137.115 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 11, 817
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 11, 818
+    parent name = "B3"
+    parent decision = No 
+    class value = 112
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 410
+    parent name = "B3"
+    parent decision = No 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 206
+    parent name = "B3"
+    parent decision = No 
+    class value = 32
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 104
+    parent name = "B3"
+    parent decision = No 
+    class value = 53
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 14
+    parent name = "B3"
+    parent decision = No 
+    expression = "B4 LE 534 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 27
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 22
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 28
+    parent name = "B3"
+    parent decision = No 
+    expression = "B4 LE 611 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 7, 55
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 112
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 7, 56
+    parent name = "B3"
+    parent decision = No 
+    class value = 22
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 4, 8
+    parent name = "B3"
+    parent decision = No 
+    expression = "B4 LE 785 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 15
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B2 LE 116.275 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 29
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B9 LE 130.602 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 57
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B11 LE 228 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 113
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B4 LE 558 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 225
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 53
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 9, 226
+    parent name = "B3"
+    parent decision = No 
+    expression = "B3 LE 160.965 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 451
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 53
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 452
+    parent name = "B3"
+    parent decision = No 
+    class value = 65
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 114
+    parent name = "B3"
+    parent decision = No 
+    class value = 55
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 58
+    parent name = "B3"
+    parent decision = No 
+    expression = "B5 LE 10.648 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 115
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 65
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 116
+    parent name = "B3"
+    parent decision = No 
+    class value = 24
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 6, 30
+    parent name = "B3"
+    parent decision = No 
+    expression = "B1 LE 315.564 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 7, 59
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B1 LE 259.210 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 8, 117
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 55
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 8, 118
+    parent name = "B3"
+    parent decision = No 
+    expression = "B10 LE 121 "
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 9, 235
+    parent name = "B3"
+    parent decision =Yes 
+    expression = "B4 LE 537 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 469
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 55
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 10, 470
+    parent name = "B3"
+    parent decision = No 
+    class value = 65
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 9, 236
+    parent name = "B3"
+    parent decision = No 
+    class value = 55
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 7, 60
+    parent name = "B3"
+    parent decision = No 
+    class value = 53
+
+end node
+
+begin node
+    name = "B3"
+    type = Decision
+    location = 5, 16
+    parent name = "B3"
+    parent decision = No 
+    expression = "B11 LE 29 "
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 31
+    parent name = "B3"
+    parent decision =Yes 
+    class value = 122
+
+end node
+
+begin node
+    name = "B3"
+    type = Result
+    location = 6, 32
+    parent name = "B3"
+    parent decision = No 
+    class value = 53
+
+end node

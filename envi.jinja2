@@ -1,0 +1,28 @@
+
+ENVI Decision Tree Text File (version=1.0)
+
+{% for i in nodes %}
+begin node
+{%- if i.type == 'Decision' %}
+    name = "B3"
+    type = Decision
+    location = {{ i.location[0] }}, {{ i.location[1] }}
+    parent name = "B3"
+    parent decision = {%- if i.location[1] is odd -%} Yes {% else %} No {% endif %}
+    expression = "{{ i.calculate }}"
+{%- elif i.type == 'Result' %}
+    name = "B3"
+    type = Result
+    location = {{ i.location[0] }}, {{ i.location[1] }}
+    parent name = "B3"
+    parent decision = {%- if i.location[1] is odd -%} Yes {% else %} No {% endif %}
+    class value = {{ i.class_value() }}
+{#    class rgb = 0,0,255#}
+{%- elif i.type == 'Root' %}
+    name = "B3"
+    type = Decision
+    location = 1,1
+    expression = "B3 LE 131.152"
+{%- endif %}
+end node
+{% endfor %}
